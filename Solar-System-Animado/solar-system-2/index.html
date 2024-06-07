@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       }
+       body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: black;
+       }
+       .sol{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: rgb(255, 162, 0);;
+        border-radius: 50%;
+        box-shadow: 0 0 30px #fff;
+       }
+       .terra{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #2196f3;
+        top: 50%;
+        left: 50%;
+        transform-origin: top left;
+        animation: rotate-terra 12s linear infinite;
+       }
+       .lua{
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #bdbdbd;
+        top: 50%;
+        left: 50%;
+        transform-origin: top left;
+        animation: rotate-lua 6s linear infinite;
+
+       }
+       .terra::before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80px;
+        height: 80px;
+        border: 1px dashed rgba(255, 255, 255, 0.5);
+        border-radius: 50%;
+        box-sizing: border-box;
+        transform-origin: 0 0;
+        transform: translate(-50%, -50%);
+       }
+       .sol::before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 400px;
+        height: 400px;
+        border: 1px dashed rgba(255, 255, 255, 0.5);
+        border-radius: 50%;
+        box-sizing: border-box;
+        transform-origin: 0 0;
+        transform: translate(-50%, -50%);
+       }
+
+       @keyframes rotate-terra{
+        0%{
+            transform: rotate(0deg) translate(175px);
+        }
+        100%{
+            transform: rotate(360deg) translateX(175px);
+        }
+        
+       }
+       @keyframes rotate-lua{
+        0%{
+            transform: rotate(0deg) translateX(30px);
+        }
+        100%{
+            transform: rotate(360deg) translateX(30px);
+        }
+       }
+
+    </style>
+</head>
+<body>
+    <div class="sol"></div>
+    <div class="terra">
+        <div class="lua"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            background-color: black;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .sol{
+            background-color: yellow;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            box-shadow: 0 0 3em white;
+           
+        }
+        .terra{
+            position: absolute;
+            background-color: rgb(62, 62, 206);
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform-origin: top left;
+            animation: rotate-terra 6s linear infinite;
+        }
+        .lua{
+            position: absolute;
+            background-color: thistle;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform-origin: top left;
+            animation: rotate-lua 3s linear infinite;
+
+        }
+        
+        @keyframes rotate-lua{
+            0%{
+                transform: rotate(0deg) translate(40px);
+            }
+            100%{
+                transform: rotate(360deg) translate(40px);
+            }
+        }
+
+        @keyframes rotate-terra{
+            0%{
+                transform: rotate(0deg) translate(175px);
+            }
+            100%{
+                transform: rotate(360deg) translate(175px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sol"></div>
+    <div class="terra">
+        <div class="lua"></div>
+    </div>
+</body>
+</html>
