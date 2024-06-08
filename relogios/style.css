@@ -231,7 +231,7 @@ img{
     height: 400px;
     width: 900px;
     color: white;
-    top: -10%;
+    top: 10%;
     left: -90%;
 }
 #hora, #minutos, #segundos{
