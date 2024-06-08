@@ -235,8 +235,8 @@ img{
 }
 #hora, #minutos, #segundos{
     position: absolute;
-    width: 125px;
-    height: 125px;
+    width: 100px;
+    height: 100px;
     
     display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
