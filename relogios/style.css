@@ -233,12 +233,12 @@ img{
     
     color: rgba(197, 190, 190, 0.326);
     top: -30%;
-    left: -105%;
+    left: -88%;
 }
 #hora, #minutos, #segundos{
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     
     display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -262,10 +262,10 @@ img{
     
 }
 #minutos{
-    left: 290px;
+    left: 260px;
 }
 #segundos{
-    left: 470px;
+    left: 410px;
 }
 
 #saudacao{
@@ -277,7 +277,7 @@ img{
     font-weight: bold;
     position: absolute;
     top: 60px;
-    left: 220px;
+    left: 175px;
     color: rgba(197, 190, 190, 0.628);
     padding: 30px;
  
