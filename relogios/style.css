@@ -241,7 +241,7 @@ img{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 10em;
     color: #d1cfd0;
-    text-shadow: 2px 3px 4px rgba(0, 0, 255, 0.386);
+    text-shadow: 1px 2px 2px rgba(255, 255, 255, 0.386);
     border: 1px solid #e2dde1;
     padding: 20px;
     margin: 10px;
@@ -262,6 +262,7 @@ img{
     top: 5px;
     color: #d1cfd0;
     padding: 30px;
+    text-shadow: 1px 2px 2px rgba(255, 255, 255, 0.386);
  
    
 }
