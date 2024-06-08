@@ -232,8 +232,8 @@ img{
     justify-content: center;
     
     color: rgba(197, 190, 190, 0.326);
-    top: -10%;
-    left: -110%;
+    top: -30%;
+    left: -105%;
 }
 #hora, #minutos, #segundos{
     position: absolute;
@@ -276,8 +276,8 @@ img{
     font-size: 4em;
     font-weight: bold;
     position: absolute;
-    top: 28px;
-    left: 230px;
+    top: 60px;
+    left: 220px;
     color: rgba(197, 190, 190, 0.628);
     padding: 30px;
  
