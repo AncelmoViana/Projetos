@@ -229,45 +229,41 @@ img{
     align-items: center;
     justify-content: center;
     
-    color: white;
+    color: rgba(197, 190, 190, 0.326);
     top: -10%;
     left: -110%;
 }
 #hora, #minutos, #segundos{
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     
     display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15em;
+    font-size: 10em;
     align-items: center;
     justify-content: center;
-    color: rgba(255, 255, 255, 0.326);
-    
+    color: rgba(197, 190, 190, 0.628);
+    top: 125px;;
     justify-content: center;
-    border: 1px solid ;
+    border: 1px solid rgba(197, 190, 190, 0.628);
     padding: 20px;
     margin: 10px;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.616);
-    background-color: rgba(0, 0, 0, 0.559);
+    background-color: rgba(0, 0, 0, 0.493);
     border-radius: 10px;
     
  
    
 }
 #hora{
-    top: 50px;
-    left: 80px;
+    left: 110px;
     
 }
 #minutos{
-    top: 50px;
-    left: 280px;
+    left: 290px;
 }
 #segundos{
-    top: 50px;
-    left: 480px;
+    left: 470px;
 }
 
 #saudacao{
@@ -277,10 +273,11 @@ img{
     font-size: 4em;
     font-weight: bold;
     position: absolute;
-    top: -40px;
-    color: #d1cfd0;
+    top: 0px;
+    left: 230px;
+    color: rgba(197, 190, 190, 0.628);
     padding: 30px;
-    text-shadow: 1px 2px 2px rgba(255, 255, 255, 0.386);
+ 
  
    
 }
@@ -289,24 +286,24 @@ img{
 }
 #txtdia{
     position: absolute;
-    left: 85px;
+    left: 80px;
 }
 
 #txtmes{
     position: absolute;
-    left: 140px;
+    left: 125px;
 
 }
 
 #txtano{
     position: absolute;
-    left: 195px;
+    left: 170px;
     
 }
 #txtsaudacao{
     position: absolute;
     top: -2px;
-    left: 110px;
+    left: 105px;
  
 }
 

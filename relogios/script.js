@@ -36,5 +36,7 @@ function relogio(){
     txtminutos.innerHTML = minuto;
     txthora.innerHTML = hora;
     if(segundo < 10){txtsegundos.innerHTML = '0' + segundo};
+    if(minuto < 10){txtminutos.innerHTML = '0' + minuto};
+    if(hora < 10){txthora.innerHTML = '0' + hora};
 }
     setInterval(relogio, 1000);
