@@ -51,6 +51,7 @@ function relogio(){
     txtdia.innerHTML = dia;
     txtmes.innerHTML = mes;
     
+    
 
     //condicões para adicionar um 0 quando o numero for menor que 10.
     if(segundo < 10){txtsegundos.innerHTML = '0' + segundo};
@@ -60,10 +61,11 @@ function relogio(){
   
 
     //condiçoes da saudação
-    if(hora >= 6 && hora < 12){txtsaudacao.innerHTML = 'Bom Dia!'}
-    if(hora >= 12 && hora < 18){txtsaudacao.innerHTML = 'Boa Tarde!'}
-    if(hora >= 18 && hora < 0){txtsaudacao.innerHTML = 'Boa Noite!'}
-    if(hora >= 0 && hora < 6){txtsaudacao.innerHTML = ' Madrugou!'}
+    if(hora >= 0 && hora < 6){txtsaudacao.innerHTML = ' Boa Madrugada!'}
+    else if(hora >= 6 && hora < 12){txtsaudacao.innerHTML = 'Bom Dia!'}
+    else if(hora >= 12 && hora < 18){txtsaudacao.innerHTML = 'Boa Tarde!'}
+    else{txtsaudacao.innerHTML = 'Boa Noite!'}
+   
 
     //condiçoes dia do ano
     if(dia < 10){txtdia.innerHTML = '0' + dia}

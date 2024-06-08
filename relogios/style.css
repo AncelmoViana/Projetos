@@ -276,7 +276,7 @@ img{
     font-size: 4em;
     font-weight: bold;
     position: absolute;
-    top: 30px;
+    top:30px;
     left: 175px;
     color: rgba(197, 190, 190, 0.628);
     padding: 30px;
@@ -304,9 +304,9 @@ img{
     
 }
 #txtsaudacao{
-    position: absolute;
-    top: -2px;
-    left: 105px;
+    position: relative;
+    top: -30px;
+    left: -20px;
  
 }
 
