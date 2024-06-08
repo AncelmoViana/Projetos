@@ -244,7 +244,7 @@ img{
     align-items: center;
     justify-content: center;
     color: rgba(197, 190, 190, 0.628);
-    top: 125px;;
+    top: 165px;;
     justify-content: center;
     border: 1px solid rgba(197, 190, 190, 0.628);
     padding: 20px;
@@ -269,11 +269,12 @@ img{
 #saudacao{
     width: 290px;
     height: 20px;
+    text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 4em;
     font-weight: bold;
     position: absolute;
-    top: 0px;
+    top: 28px;
     left: 230px;
     color: rgba(197, 190, 190, 0.628);
     padding: 30px;
@@ -308,9 +309,11 @@ img{
 }
 
 #txtdiasemana{
-    position: absolute;
-    top: 30px;
-    left: 95px;
+    position: relative;
+    top: 10px;
+    left: -20px;
+
+
 
 }
 
