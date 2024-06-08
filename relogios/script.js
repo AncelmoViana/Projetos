@@ -47,7 +47,7 @@ function relogio(){
     txtsegundos.innerHTML = segundo;
     txtminutos.innerHTML = minuto;
     txthora.innerHTML = hora;
-    txtdia.innerHTML = dia
+    txtdia.innerHTML = dia;
     txtmes.innerHTML = mes + 1;
     
 
@@ -65,7 +65,7 @@ function relogio(){
     if(hora >= 0 && hora < 6){txtsaudacao.innerHTML = ' Madrugou!'}
 
     //condiçoes dia do ano
-    if(dia < 10){txtdia.innerHTML = '0' + dia}
+    if(dia < 10){txtdia.innerHTML = '0' + dia }
     if(mes < 10){txtmes.innerHTML = '0' + mes}
 
 
