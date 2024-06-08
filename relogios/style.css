@@ -8,6 +8,7 @@ body{
     align-items: center;
     background-color: black;
     overflow: hidden;
+
    
 }
 .container{
@@ -209,6 +210,12 @@ img{
     background-image: url(./imagens/pluto.png);
     background-size: cover;
 }
+.star{
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    z-index: -1;
+}
 
 
 @keyframes orbit{
@@ -216,6 +223,7 @@ img{
         transform: rotate(360deg);
     }
 }
+
 
 #relogio{
     position:  relative;
