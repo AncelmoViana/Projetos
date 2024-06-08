@@ -210,13 +210,7 @@ img{
     background-size: cover;
 }
 
-.star{
-    position: absolute;
-    background-color: white;
-    border-radius: 50%;
-    z-index: -1;
 
-}
 @keyframes orbit{
     to{
         transform: rotate(360deg);
