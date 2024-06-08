@@ -14,3 +14,27 @@ function createStars(){
     }
 }
 createStars();
+
+
+function relogio(){
+    let txtsegundos = document.getElementById('segundos');
+    let txtminutos = document.getElementById('minutos');
+    let txthora = document.getElementById('hora');
+
+    let agora = new Date();
+    let segundo = agora.getSeconds();
+    let minuto = agora.getMinutes();
+    let hora = agora.getHours();
+   
+    
+    
+
+  
+
+
+    txtsegundos.innerHTML = segundo;
+    txtminutos.innerHTML = minuto;
+    txthora.innerHTML = hora;
+    if(segundo < 10){txtsegundos.innerHTML = '0' + segundo};
+}
+    setInterval(relogio, 1000);
