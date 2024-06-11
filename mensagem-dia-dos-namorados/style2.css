@@ -24,8 +24,9 @@ section{
 
 }
 section p{
-    line-height: 1.3em;
+    line-height: 1.5em;
     text-indent: 8px;
+    font-size: 1.2em;
 }
 img{
     margin: auto;
