@@ -34,8 +34,7 @@ section p{
 img{
     margin: auto;
     display: block;
-    padding: 20px;
-    width: 75%;
+    width: 100%;
 }
 footer{
     color: black;
