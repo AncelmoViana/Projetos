@@ -5,14 +5,8 @@ body{
     background-position: center ;
 }
 
-header{
-    color: black;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    
 
-}
+    
 
 section{
     font-family: Arial, Helvetica, sans-serif;
@@ -52,6 +46,7 @@ section a{
     cursor: pointer;
     background: red;
     width: 10%;
+
     border-radius: 5px;
     padding: 10px;
 
