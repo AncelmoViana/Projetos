@@ -44,7 +44,7 @@ footer{
     font-style: italic;
 
 }
-section a{
+header a{
     margin: auto;
     display: block;
     text-align: center;
@@ -61,7 +61,7 @@ section a{
     
 
 }
-section a:hover{
+header a:hover{
     background-color:   #f20045b8;
    
 }
