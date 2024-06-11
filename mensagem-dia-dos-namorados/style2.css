@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(coracoes.jpg);
+    background-position: center ;
+}
+
+header{
+    color: white;
+    text-align: center;
+    
+
+}
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    min-width: 200px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336);
+    
+    
+
+}
+section p{
+    line-height: 1.3em;
+    text-indent: 8px;
+}
+img{
+    margin: auto;
+    display: block;
+    padding: 20px;
+    width: 65%;
+}
+footer{
+    color: black;
+    text-align: center;
+    font-style: italic;
+
+}
+section a{
+    margin: auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background: red;
+    width: 60px;
+    border-radius: 5px;
+    padding: 10px;
+
+    
+
+}
+section a:hover{
+    background-color:   #f20045b8;
+   
+}
