@@ -4,7 +4,9 @@ body{
     background-image: url(coracoes.jpg);
     background-position: center ;
 }
-
+header{
+    padding: 50px;
+}
 
     
 
