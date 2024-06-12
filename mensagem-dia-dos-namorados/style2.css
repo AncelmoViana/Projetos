@@ -46,25 +46,3 @@ footer{
     font-style: italic;
 
 }
-section p a{
-    margin: auto;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    background: red;
-    width: 15%;
-  
-    border-radius: 5px;
-    padding: 10px;
-    
-
-    
-
-}
-section p a:hover{
-    background-color:   #f20045b8;
-   
-}
