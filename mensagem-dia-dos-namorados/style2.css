@@ -5,7 +5,8 @@ body{
     background-position: center ;
 }
 header{
-    padding-bottom: 10px;
+    padding: 20px;
+  
 }
 
 
@@ -45,7 +46,7 @@ footer{
     font-style: italic;
 
 }
-header a{
+section p a{
     margin: auto;
     display: block;
     text-align: center;
@@ -54,8 +55,8 @@ header a{
     font-weight: bold;
     cursor: pointer;
     background: red;
-    width: 10%;
-    height: 12%;
+    width: 15%;
+  
     border-radius: 5px;
     padding: 10px;
     
@@ -63,7 +64,7 @@ header a{
     
 
 }
-header a:hover{
+section p a:hover{
     background-color:   #f20045b8;
    
 }
