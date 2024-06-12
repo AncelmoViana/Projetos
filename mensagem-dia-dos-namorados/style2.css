@@ -5,8 +5,9 @@ body{
     background-position: center ;
 }
 header{
-    padding: 50px;
+    padding-bottom: 10px;
 }
+
 
     
 
@@ -54,9 +55,10 @@ header a{
     cursor: pointer;
     background: red;
     width: 10%;
-
+    height: 12%;
     border-radius: 5px;
     padding: 10px;
+    
 
     
 
