@@ -315,7 +315,7 @@ img{
     top: 10px;
     left: -20px;
 }
-@media (min-width: 320px) and (max-width: 400px){
+@media (min-width: 320px) and (max-width: 450px){
     .container{
         font-size: 45%;
         width: 80%;
@@ -324,26 +324,26 @@ img{
     }
     .sol{
         top: 30em;
-        left: 15em;
+        left: 16.5em;
         width: 10em;
         height: 10em;
     }
     .mercurio{
         top: 28em;
-        left: 12.5em;
+        left: 14em;
         width: 15em;
         height: 15em;
     }
     .venus{
         top: 25.4em;
-        left: 10em;
+        left: 11.5em;
         width: 20em;
         height: 20em;
       
     }
     .terra{
-        top: 20em;
-        left: 6em;
+        top: 21.5em;
+        left: 7.5em;
         width: 28em;
         height: 28em;
 
@@ -356,43 +356,43 @@ img{
         
     }
     .marte{
-        top: 15.5em;
-        left: 2.5em;
+        top: 18em;
+        left: 6em;
         width: 36em;
         height: 36em;
         
     }
     .jupiter{
-        top: 10em;
-        left: -2em;
+        top: 13em;
+        left: 1em;
         width: 45em;
         height: 45em;
         
     }
     .saturno{
-        top: 4em;
-        left: -7em;
+        top: 9em;
+        left: -3em;
         width: 55em;
         height: 55em;
         
     }
     .uranio{
-        top: -1em;
-        left: -12em;
+        top: 5em;
+        left: -7em;
         width: 65em;
         height: 65em;
         
     }
     .neturno{
-        top: -5em;
-        left: -17em;
+        top: 1em;
+        left: -12em;
         width: 75em;
         height: 75em;
         
     }
     .plutao{
-        top: -10em;
-        left: -22em;
+        top: -3em;
+        left: -16em;
         width: 85em;
         height: 85em;
         
@@ -422,7 +422,7 @@ img{
         
     }
     #minutos{
-        left: 158%;
+        left: 160%;
     }
     #segundos{
 
