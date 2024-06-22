@@ -100,3 +100,5 @@ function relogio(){
     }
 }
     setInterval(relogio, 1000);
+
+    
