@@ -318,7 +318,7 @@ img{
 @media (min-width: 320px) and (max-width: 450px){
     .container{
         font-size: 45%;
-        width: 80%;
+        width: 400px;
         height: 80%;
 
     }
