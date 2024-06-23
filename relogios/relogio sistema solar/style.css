@@ -317,6 +317,10 @@ img{
     left: -20px;
 }
 @media (min-width: 320px) and (max-width: 450px){
+    body{
+        width: 175vw;
+        height: 100%;
+    }
     .container{
         font-size: 45%;
         width: 100%;
@@ -419,16 +423,16 @@ img{
     }
     #hora{
         
-        left: 80%;
+        left: 90%;
         
     }
     #minutos{
-        left: 160%;
+        left: 122%;
     }
     #segundos{
 
         top: 85%;
-        left: 120%;
+        left: 106%;
     }
     
     #saudacao{
