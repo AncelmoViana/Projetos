@@ -45,7 +45,7 @@ img{
 }
 .mercurio{
     top: 12.5em;
-    left: 50%;
+    left: 12.5em;
     width: 15em;
     height: 15em;
     animation: orbit 5s linear infinite;
@@ -335,13 +335,13 @@ img{
     }
     .mercurio{
         top: 28em;
-        left: 14em;
+        left: 18.5em;
         width: 15em;
         height: 15em;
     }
     .venus{
         top: 25.4em;
-        left: 11.5em;
+        left: 19em;
         width: 20em;
         height: 20em;
       
