@@ -405,7 +405,7 @@ img{
     /* css do relogio */
 
     #relogio{
-        top: -1%;
+        top: 95px;
         left: -88%;
         height: 350px;
        
@@ -427,12 +427,11 @@ img{
         
     }
     #minutos{
-        left: 122%;
+        left: 106% ;
     }
     #segundos{
 
-        top: 85%;
-        left: 106%;
+        left: 122%;
     }
     
     #saudacao{
