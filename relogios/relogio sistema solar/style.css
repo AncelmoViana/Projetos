@@ -405,7 +405,7 @@ img{
     /* css do relogio */
 
     #relogio{
-        top: 95px;
+        top: 105px;
         left: -88%;
         height: 350px;
        
@@ -442,8 +442,8 @@ img{
         font-size: 4em;
         font-weight: bold;
         position: absolute;
-        top:30px;
-        left: 190px;
+        top:-55px;
+        left: 80%;
         color: rgba(197, 190, 190, 0.628);
         padding: 30px;
      
