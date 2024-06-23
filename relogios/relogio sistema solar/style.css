@@ -45,7 +45,7 @@ img{
 }
 .mercurio{
     top: 12.5em;
-    left: 12.5em;
+    left: 50%;
     width: 15em;
     height: 15em;
     animation: orbit 5s linear infinite;
@@ -329,7 +329,7 @@ img{
     }
     .sol{
         top: 30em;
-        left: 16.5em;
+        left: 20.8%;
         width: 10em;
         height: 10em;
     }
@@ -443,7 +443,7 @@ img{
         font-weight: bold;
         position: absolute;
         top:-55px;
-        left: 80%;
+        left: 85%;
         color: rgba(197, 190, 190, 0.628);
         padding: 30px;
      
