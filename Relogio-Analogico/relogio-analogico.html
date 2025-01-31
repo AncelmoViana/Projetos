@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Relógio Analógico</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            background: url('haykel-mhadbi-god-of-war-ragnarok-landing-page.jpg') center/cover no-repeat;
+            color: #404041;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="clock" width="400" height="400"></canvas>
+
+    <script>
+        const canvas = document.getElementById('clock');
+        const ctx = canvas.getContext('2d');
+        const centerX = canvas.width / 2;
+        const centerY = canvas.height / 2;
+        const radius = 150;
+
+        // Configuração de alta resolução para telas retina
+        const dpr = window.devicePixelRatio || 1;
+        canvas.style.width = '700px';
+        canvas.style.height = '700px';
+        canvas.width = 400 * dpr;
+        canvas.height = 400 * dpr;
+        ctx.scale(dpr, dpr);
+
+        function drawClock() {
+            // Limpa o canvas
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Desenha o círculo do relógio
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, radius, 0, 2 * Math.PI);
+            ctx.strokeStyle = '#E0FFFF';
+            ctx.lineWidth = 4;
+            ctx.stroke();
+
+            // Desenha os números
+            ctx.font = '20px Arial';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillStyle = '#E0FFFF';
+
+            for (let i = 1; i <= 12; i++) {
+                const angle = (i * 30 - 90) * Math.PI / 180;
+                const x = centerX + Math.cos(angle) * (radius - 20);
+                const y = centerY + Math.sin(angle) * (radius - 20);
+                ctx.fillText(i.toString(), x, y);
+            }
+
+            // Obtém o tempo atual
+            const now = new Date();
+            const hours = now.getHours() % 12;
+            const minutes = now.getMinutes();
+            const seconds = now.getSeconds();
+
+            // Calcula os ângulos
+            const hourAngle = (hours * 30 + minutes * 0.5 - 90) * Math.PI / 180;
+            const minuteAngle = (minutes * 6 + seconds * 0.1 - 90) * Math.PI / 180;
+            const secondAngle = (seconds * 6 - 90) * Math.PI / 180;
+
+            // Desenha o ponteiro das horas
+            ctx.save();
+            ctx.translate(centerX, centerY);
+            ctx.rotate(hourAngle);
+            ctx.beginPath();
+            ctx.moveTo(0, 0);
+            ctx.lineTo(50, 0);
+            ctx.lineWidth = 6;
+            ctx.strokeStyle = 'black';
+            ctx.stroke();
+            ctx.restore();
+
+            // Desenha o ponteiro dos minutos
+            ctx.save();
+            ctx.translate(centerX, centerY);
+            ctx.rotate(minuteAngle);
+            ctx.beginPath();
+            ctx.moveTo(0, 0);
+            ctx.lineTo(70, 0);
+            ctx.lineWidth = 4;
+            ctx.strokeStyle = 'black';
+            ctx.stroke();
+            ctx.restore();
+
+            // Desenha o ponteiro dos segundos
+            ctx.save();
+            ctx.translate(centerX, centerY);
+            ctx.rotate(secondAngle);
+            ctx.beginPath();
+            ctx.moveTo(0, 0);
+            ctx.lineTo(90, 0);
+            ctx.lineWidth = 2;
+            ctx.strokeStyle = 'red';
+            ctx.stroke();
+            ctx.restore();
+
+            // Desenha o centro do relógio
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, 5, 0, 2 * Math.PI);
+            ctx.fillStyle = 'red';
+            ctx.fill();
+        }
+
+        // Atualiza o relógio a cada segundo
+        setInterval(drawClock, 1000);
+        drawClock(); // Chama imediatamente para evitar delay inicial
+    </script>
+</body>
+</html>
